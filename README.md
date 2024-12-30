@@ -1,2 +1,2 @@
-# Ak-ll-Otopark-Web-Sitesi
+# AKILLI-Otopark-Web-Sitesi
 PHP-HTML-JavaScript ile oluşturuldu
