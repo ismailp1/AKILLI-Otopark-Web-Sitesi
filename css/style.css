@@ -1,0 +1,332 @@
+* {
+    box-sizing: : border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+#menu {
+    height: 8%;
+
+    padding: 1%;
+}
+
+#header{
+    height: auto;
+}
+
+#logo {
+    font-size: 30px;
+    line-height: 80px;
+    color: darkorange;
+    float: left;
+}
+
+nav {
+    float: right;
+    line-height: 80px;
+}
+
+nav a:link {
+    text-decoration: none;
+    margin-right: 25px;
+    color: black
+}
+
+nav a:hover {
+    border-bottom: 2px solid darkorange;
+}
+
+nav a:visited {
+    text-decoration: none;
+    margin-right: 25px;
+    color: black
+}
+
+.ikon {
+    margin-right: 7px;
+    font-size: 16px;
+    width: 100%;
+}
+
+#anasayfa {
+
+    height: 600px;
+    background-image:
+        url("../parkt.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#black{
+    height: 600px;
+    background-color:black;
+    opacity: 0.5;
+}
+
+
+#icerik{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50% , -50%);
+    color: white;
+    font-size: 20px;
+}
+
+#hakkimizda{
+    background-color:floralwhite ;
+
+    padding: 2%;
+    text-align: center;
+    text-transform:capitalize;
+    font-weight: 600;
+    width: 100%;
+
+}
+
+
+h3{
+    font-size: 55px;
+    color: black;
+    text-shadow: 0px 1px 1px
+    black;
+    font-weight: 600;
+    width: 100%;
+
+
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+#sol{
+    float: left;
+    border-right: 3px solid
+        black;
+    font-size: 30px;
+    width: 100%;
+    color: black;
+}
+
+#h5sol{
+    line-height: 1.6;
+    font-size: 25px;
+    font-weight: 600;
+    width: 100%;
+}
+
+
+#h5sol,#sag{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+}
+
+span{
+    font-size: 50px;
+    margin-right: 7px;
+    line-height: 42px;
+    color: black;
+    font-size: 600;
+    float: left;
+    
+}
+#sag{
+    float: right;
+    width: 100%;
+    color:cadetblue;
+    text-align: left; 
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 100;
+}
+
+.img-fluid{
+    max-width: :100%;
+    height: auto;
+}
+
+.mt100{
+    margin-top: 100px;
+}
+
+#pson{
+    color: black;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+#Otoparklar{
+    background-color:white;
+    padding: 50px;
+    text-align: center;
+    height: 700px;
+}
+
+.card{
+    width: 320px;
+    height: 350px;
+    border: 1px solid white;
+    display: inline-block;
+}
+
+.baslikcard{
+    font-size: 15px;
+    color:blue;
+}
+.cardp{
+    color:black;
+}
+
+.card:hover{
+    border: 2px solid black;
+    
+}
+#sosyalmedya{
+    background-color:darkgrey;
+    padding: 50px;
+    height: 800;
+    text-align: center;
+}
+
+#sosyalmedyaph3{
+    color:black;
+}
+
+.oval{
+    border-radius: 50%;
+}
+.projeisim{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.isimp{
+   color:black;
+    font-size: 15px;
+}
+.social1{
+    color: blue;
+      border: 1px solid blue ;
+    padding: 10px;
+    width: 50px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.social2{
+    color:red;
+    border: 1px solid red;
+    padding: 10px;
+      width: 50px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.social3{
+    color:dodgerblue;
+   border: 1px solid dodgerblue ;
+    padding: 10px;
+      width: 50px;
+    border-radius: 5px;
+    margin: 5px;
+}
+    
+#iletisim{
+        background: url("../haval%C4%B1.jpg");
+    background-size: cover;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+    }
+
+#iletisimopak{
+    background: 
+        rgba(255,255,255,0.2);
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    height: 550px;
+}
+#formgroup{
+    width:700px;
+    float: left;
+    height: 500px;
+    text-align: left;
+}
+#solform{
+    width: 40%;
+    float: left;
+}
+#sagform{
+    width: 40%;
+    float: right;
+}
+.form-control{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: gray;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px; gray;
+}
+textarea{
+    font-family: Arial;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    background-color:grey;
+    font-size: 18px;
+    color: white;
+   border : 2px solid: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#adresbaslik{
+    font-size: 30px;
+    color: white;
+
+}
+.adresp{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+#copyright{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+#up{
+    color: white;
+    border;1px solid white;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 9px 12px;
+    margin-top: 15px;
+}
+@media screen and (max-width: 768px){
+    #icerik{
+        width: 100%;
+    }
+    #sidebar{
+       width:  100%;
+    }
+    
+    
+}
